@@ -1,0 +1,589 @@
+# ~450 companies. Run:  python3 crawler-shakshi.py --discover-file candidates-big.txt --write
+# Only companies with a supported job board AND at least one job in India get added.
+
+# --- Indian consumer / commerce / mobility
+Flipkart
+Myntra
+Meesho
+Nykaa
+Eternal
+Blinkit
+BigBasket
+FreshToHome
+Country Delight
+JioMart
+Tata Digital
+Tata 1mg
+Snapdeal
+Udaan
+Moglix
+Jumbotail
+DealShare
+OfBusiness
+Zetwerk
+CarDekho
+CarTrade
+Droom
+OLX India
+Quikr
+NoBroker
+Housing.com
+MagicBricks
+Square Yards
+BluSmart
+Yulu
+Bounce
+Vogo
+Zoomcar
+RedBus
+Goibibo
+Yatra
+EaseMyTrip
+Treebo
+Mamaearth
+Honasa
+Sugar Cosmetics
+boAt
+Noise
+Wakefit
+Pepperfry
+Urban Ladder
+FirstCry
+HealthKart
+Cult.fit
+HealthifyMe
+Netmeds
+MediBuddy
+Qure.ai
+Pristyn Care
+mfine
+Mensa Brands
+GlowRoad
+Shopsy
+Rebel Foods
+Box8
+Zomato
+Swiggy Instamart
+Dunzo
+Magicpin
+Paytm Mall
+PhonePe
+Pine Labs
+Ola Krutrim
+Krutrim
+Sarvam AI
+
+# --- Indian fintech
+Razorpay
+Cashfree
+PayU
+Juspay
+Zeta
+Slice
+Jupiter
+Fi Money
+Niyo
+KreditBee
+Navi
+Groww
+Zerodha
+Upstox
+Kuvera
+INDmoney
+Dhan
+Smallcase
+Scripbox
+Paisabazaar
+InsuranceDekho
+Turtlemint
+Lendingkart
+Capital Float
+Indifi
+Open Financial
+Khatabook
+OkCredit
+BharatPe
+Mobikwik
+Freecharge
+Setu
+Perfios
+Signzy
+IDfy
+Digio
+Decentro
+M2P Fintech
+Cred
+Simpl
+LazyPay
+Money View
+Stashfin
+Rupeek
+Credgenics
+Yubi
+CredAvenue
+Mintoak
+Pay1
+Airpay
+Easebuzz
+Instamojo
+Zolve
+Jar
+Fampay
+Ethos
+Vance
+
+# --- Indian SaaS / enterprise / data / AI
+Freshworks
+Zoho
+Chargebee
+Postman
+BrowserStack
+LambdaTest
+Sprinklr
+Druva
+Icertis
+Zycus
+Mindtickle
+Whatfix
+WebEngage
+MoEngage
+CleverTap
+Netcore
+Gupshup
+Exotel
+Knowlarity
+Ozonetel
+Yellow.ai
+Haptik
+Uniphore
+Observe.AI
+Skit.ai
+Hasura
+Atlan
+Gramener
+Fractal
+Mu Sigma
+Tredence
+LatentView
+Sigmoid
+ThoughtSpot
+Cohesity
+Zenoti
+Darwinbox
+Keka
+LeadSquared
+Capillary
+Eightfold
+Uptycs
+Sprinto
+Zluri
+Rocketlane
+Scrut
+Gainsight
+Amagi
+Kapture CX
+Innovaccer
+Practo
+Clevertap
+Nurix
+Wingify
+VWO
+Mad Street Den
+Vernacular.ai
+Pepper Content
+Pocket Aces
+Locus
+Shadowfax
+Delhivery
+Shiprocket
+Ecom Express
+Xpressbees
+Porter
+Rapido
+Ather Energy
+Ola Electric
+Cars24
+Spinny
+OYO
+MakeMyTrip
+Ixigo
+Cleartrip
+PolicyBazaar
+Acko
+Digit Insurance
+
+# --- Gaming / media / social
+Dream11
+MPL
+Games24x7
+Zupee
+WinZO
+Nazara
+Junglee Games
+Loco
+Rooter
+Krafton
+Nodwin
+Gametion
+Moonfrog
+Hike
+ShareChat
+Moj
+Josh
+Dailyhunt
+InMobi
+Glance
+Pocket FM
+Kuku FM
+STAGE
+Hungama
+JioCinema
+Hotstar
+Zee5
+SonyLIV
+MX Player
+Gaana
+JioSaavn
+Wynk
+
+# --- Edtech
+Byju's
+Unacademy
+upGrad
+Vedantu
+PhysicsWallah
+Eruditus
+Simplilearn
+Great Learning
+Scaler
+InterviewBit
+Coding Ninjas
+Masai School
+Newton School
+Toppr
+Testbook
+Adda247
+Teachmint
+Classplus
+Doubtnut
+Coursera
+Udemy
+Duolingo
+Chegg
+2U
+
+# --- Global product companies with Indian engineering teams
+Stripe
+Uber
+Airbnb
+Adobe
+Intuit
+PayPal
+Visa
+Mastercard
+Oracle
+Cisco
+VMware
+NetApp
+Pure Storage
+Splunk
+New Relic
+Datadog
+Dynatrace
+Twilio
+Zendesk
+HubSpot
+Shopify
+Slack
+Walmart Global Tech
+Target
+Lowe's
+Home Depot
+Best Buy
+Nike
+Booking.com
+Expedia
+Agoda
+TripAdvisor
+Trivago
+GoDaddy
+Rakuten
+Mercari
+Grab
+Gojek
+Sea Group
+Shopee
+Lazada
+Tokopedia
+Okta
+Cloudflare
+Snowflake
+Databricks
+MongoDB
+Redis
+Couchbase
+Cockroach Labs
+PlanetScale
+Neo4j
+DataStax
+Starburst
+Dremio
+Fivetran
+dbt Labs
+Airbyte
+Segment
+Amplitude
+Mixpanel
+Heap
+PostHog
+Sentry
+Honeycomb
+LaunchDarkly
+Optimizely
+PagerDuty
+GitLab
+GitHub
+JFrog
+HashiCorp
+Docker
+Kong
+Sendbird
+Intercom
+BigCommerce
+Wix
+Squarespace
+Adyen
+Checkout.com
+Plaid
+Marqeta
+Brex
+Ramp
+Rippling
+Gusto
+Deel
+Remote
+Oyster
+Papaya Global
+Lattice
+Culture Amp
+Workato
+Zapier
+Airtable
+Notion
+Coda
+Figma
+Canva
+Miro
+Asana
+Monday.com
+ClickUp
+Linear
+Retool
+Vercel
+Netlify
+Auth0
+CrowdStrike
+Zscaler
+Palo Alto Networks
+SentinelOne
+Snyk
+Wiz
+Lacework
+Tanium
+Rapid7
+Qualys
+Tenable
+Proofpoint
+Mandiant
+Illumio
+Netskope
+Elastic
+Confluent
+Nutanix
+Rubrik
+Akamai
+Fastly
+DigitalOcean
+Rackspace
+F5
+Citrix
+Arista
+Juniper
+Ericsson
+Nokia
+Qualcomm
+Nvidia
+AMD
+Intel
+Samsung
+Texas Instruments
+Micron
+Western Digital
+Seagate
+Marvell
+Broadcom
+MediaTek
+Synopsys
+Cadence
+Siemens EDA
+Honeywell
+Philips
+Schneider Electric
+ABB
+Dell
+HP
+HPE
+IBM
+Lenovo
+
+# --- AI companies
+OpenAI
+Anthropic
+Cohere
+Mistral AI
+Scale AI
+Hugging Face
+Weights & Biases
+Glean
+Harvey
+Sierra
+Perplexity
+Character.AI
+Runway
+Databricks Mosaic
+Together AI
+Anyscale
+Pinecone
+Weaviate
+LangChain
+Replit
+Cursor
+Cognition
+Sourcegraph
+
+# --- Finance / trading / fintech infra with Indian offices
+Goldman Sachs
+Morgan Stanley
+JPMorgan
+American Express
+Wells Fargo
+Citi
+Barclays
+HSBC
+Deutsche Bank
+UBS
+BlackRock
+Fidelity
+Vanguard
+Charles Schwab
+State Street
+Northern Trust
+BNY Mellon
+Capital One
+Discover
+Synchrony
+Jane Street
+Hudson River Trading
+Tower Research
+DE Shaw
+Optiver
+Citadel
+Two Sigma
+Millennium
+WorldQuant
+Quadeye
+Graviton Research
+AlphaGrep
+NK Securities
+Squarepoint
+Arcesium
+Murex
+FactSet
+Bloomberg
+MSCI
+S&P Global
+Moody's
+Morningstar
+Nasdaq
+ICE
+CME Group
+Broadridge
+Fiserv
+FIS
+Temenos
+Finastra
+Coinbase
+Kraken
+Binance
+CoinDCX
+CoinSwitch
+WazirX
+BitGo
+Chainalysis
+Ripple
+Circle
+Gemini
+Robinhood
+
+# --- Consulting / services with product-engineering hiring
+Thoughtworks
+Nagarro
+EPAM
+GlobalLogic
+Globant
+Endava
+Publicis Sapient
+Cognizant
+Mphasis
+Persistent Systems
+Zensar
+Hexaware
+Coforge
+Cyient
+Sonata Software
+Birlasoft
+Virtusa
+McKinsey
+BCG
+Bain
+Deloitte
+PwC
+EY
+KPMG
+Accenture
+
+# --- Mobility / auto / hardware
+Tesla
+Rivian
+Lucid Motors
+Waymo
+Aurora
+Zoox
+Nuro
+Tata Motors
+Mahindra
+Bosch
+Uber Freight
+Lyft
+DoorDash
+Instacart
+Gopuff
+Wayfair
+Etsy
+eBay
+Pinterest
+Reddit
+Snap
+LinkedIn
+Netflix
+Spotify
+Twitch
+Roku
+Warner Bros Discovery
+Epic Games
+Unity
+Electronic Arts
+Sony
+Cadence Design
+Mentor Graphics
+Arm

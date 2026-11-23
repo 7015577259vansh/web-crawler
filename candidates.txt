@@ -1,0 +1,214 @@
+# One company per line. Used by:  python3 crawler-shakshi.py --discover-file candidates.txt --write
+# Companies that use their own careers site or Workday will be reported as "not found".
+
+# Indian product companies and startups
+Razorpay
+Zeta
+Juspay
+CRED
+Meesho
+Swiggy
+Zomato
+Zepto
+PhonePe
+Paytm
+Groww
+Zerodha
+Upstox
+Dunzo
+ShareChat
+Dream11
+MPL
+Games24x7
+Nykaa
+Lenskart
+Urban Company
+Ola
+Ola Electric
+Ather Energy
+Cars24
+Spinny
+OYO
+MakeMyTrip
+Cleartrip
+ixigo
+PolicyBazaar
+Acko
+Digit Insurance
+BharatPe
+Slice
+Jupiter
+Navi
+Postman
+BrowserStack
+Freshworks
+Zoho
+Chargebee
+Druva
+Sprinklr
+Innovaccer
+Hasura
+Uniphore
+Observe.AI
+Gupshup
+CleverTap
+MoEngage
+WebEngage
+Rapido
+Porter
+Delhivery
+Shiprocket
+Licious
+Myntra
+PharmEasy
+Practo
+Unacademy
+PhysicsWallah
+upGrad
+Vedantu
+Coursera
+Udemy
+Duolingo
+InMobi
+Glance
+Dailyhunt
+Pocket FM
+Kuku FM
+Josh
+Khatabook
+OkCredit
+Vance
+Ethos
+Fampay
+Mobikwik
+Pine Labs
+Cashfree
+Setu
+Open Financial
+RazorpayX
+Capillary
+Netcore
+Yellow.ai
+Haptik
+Skit
+Gojek
+Grab
+Sharechat
+Tekion
+Turing
+Toptal
+LeadSquared
+Zenoti
+Darwinbox
+Keka
+Whatfix
+Mindtickle
+Icertis
+Zycus
+Nutanix
+Rubrik
+Confluent
+
+# Global companies with large India engineering teams
+Stripe
+Uber
+Airbnb
+Adobe
+Intuit
+PayPal
+Visa
+Mastercard
+Oracle
+Cisco
+VMware
+NetApp
+Pure Storage
+Splunk
+New Relic
+Datadog
+Dynatrace
+Twilio
+Zendesk
+HubSpot
+Shopify
+Slack
+Walmart
+Target
+Lowe's
+Goldman Sachs
+Morgan Stanley
+JPMorgan
+American Express
+Wells Fargo
+Booking.com
+Expedia
+Agoda
+GoDaddy
+Qualcomm
+Nvidia
+AMD
+Intel
+Samsung
+Arista
+Juniper
+Palo Alto Networks
+CrowdStrike
+Zscaler
+Okta
+Cloudflare
+Snowflake
+Databricks
+MongoDB
+Redis
+Couchbase
+Cockroach Labs
+Grafana Labs
+HashiCorp
+GitLab
+GitHub
+JFrog
+Sumo Logic
+PagerDuty
+Rippling
+Deel
+Gusto
+Brex
+Ramp
+Plaid
+Robinhood
+Coinbase
+Kraken
+Elastic
+Notion
+Figma
+Canva
+Atlassian
+Miro
+Asana
+Box
+Dropbox
+Twitch
+Spotify
+Pinterest
+Reddit
+Snap
+LinkedIn
+Netflix
+Roku
+Warner Bros Discovery
+Epic Games
+Unity
+Electronic Arts
+Sony
+Western Digital
+Seagate
+Micron
+Synopsys
+Cadence
+Siemens EDA
+Mentor Graphics
+Arm
+Marvell
+Broadcom
+MediaTek
+Texas Instruments
